@@ -1,8 +1,12 @@
-Origin: arhimed Repo
-Label: arhimed
+Origin: Arhimed Repo
+Label: Arhimed Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Репозиторий arhimed с твиками
+Description: My personal Cydia/Sileo repo
+MD5Sum:
+ (...хеши файлов...)
+SHA256:
+ (...хеши файлов...)
