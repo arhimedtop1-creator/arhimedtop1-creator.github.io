@@ -7,8 +7,8 @@ Architectures: iphoneos-arm
 Components: main
 Description: My personal repo for iOS packages
 MD5Sum:
- $(md5sum Packages | cut -d' ' -f1) $(stat -f%z Packages) Packages
- $(md5sum Packages.gz | cut -d' ' -f1) $(stat -f%z Packages.gz) Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e  Packages
+ 2f01825640999662e99704624dc17e69  Packages.gz
 SHA256:
- $(sha256sum Packages | cut -d' ' -f1) $(stat -f%z Packages) Packages
- $(sha256sum Packages.gz | cut -d' ' -f1) $(stat -f%z Packages.gz) Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  Packages
+ f81e3b867a3c692581ea35a6b577854b2185f36d662ed95ee02b65864aec7143  Packages.gz
