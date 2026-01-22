@@ -5,8 +5,10 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: My personal Cydia/Sileo repo
+Description: My personal repo for iOS packages
 MD5Sum:
- (...хеши файлов...)
+ $(md5sum Packages | cut -d' ' -f1) $(stat -f%z Packages) Packages
+ $(md5sum Packages.gz | cut -d' ' -f1) $(stat -f%z Packages.gz) Packages.gz
 SHA256:
- (...хеши файлов...)
+ $(sha256sum Packages | cut -d' ' -f1) $(stat -f%z Packages) Packages
+ $(sha256sum Packages.gz | cut -d' ' -f1) $(stat -f%z Packages.gz) Packages.gz
